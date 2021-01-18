@@ -15,4 +15,32 @@ Comment4 ""
 $EndDescr
 Text Notes 900  1075 0    118  ~ 24
 FMC 2 SATA Adapter
+Text Notes 925  1450 0    79   ~ 0
+https://reference.digilentinc.com/reference/programmable-logic/nexys-video/start
+$Comp
+L antmicroFMCConnectors:ASP-134488-01 J?
+U 2 1 6005B4DB
+P 3675 5200
+F 0 "J?" H 3675 7557 50  0000 C CNN
+F 1 "ASP-134488-01" H 3675 7466 50  0000 C CNN
+F 2 "antmicro-footprints:ASP-134488-01" H 3675 5200 50  0001 L BNN
+F 3 "" H 3675 5200 50  0001 L BNN
+F 4 "Samtec" H 3675 5200 50  0001 L BNN "Manufacturer"
+F 5 "ASP-134488-01" H 3675 7375 50  0000 C CNN "MPN"
+	2    3675 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroFMCConnectors:ASP-134488-01 J?
+U 4 1 6005FF72
+P 5775 5300
+F 0 "J?" H 5775 7657 50  0000 C CNN
+F 1 "ASP-134488-01" H 5775 7566 50  0000 C CNN
+F 2 "antmicro-footprints:ASP-134488-01" H 5775 5300 50  0001 L BNN
+F 3 "" H 5775 5300 50  0001 L BNN
+F 4 "Samtec" H 5775 5300 50  0001 L BNN "Manufacturer"
+F 5 "ASP-134488-01" H 5775 7475 50  0000 C CNN "MPN"
+	4    5775 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
