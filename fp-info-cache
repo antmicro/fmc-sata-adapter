@@ -1,4 +1,4 @@
-1240801046265018
+1248891298321018
 antmicro-footprints
 685119134923
 WR-COM SMT Horizontal HDMI, 19 pins
@@ -322,6 +322,13 @@ Connector
 6
 6
 antmicro-footprints
+10034814-001LF
+
+
+0
+24
+22
+antmicro-footprints
 22053041
 https://www.molex.com/pdm_docs/sd/022053041_sd.pdf
 
@@ -496,6 +503,13 @@ AV-module
 0
 0
 0
+antmicro-footprints
+AX3DAF1
+
+
+0
+6
+6
 antmicro-footprints
 Air_Quality_Module_IAQ-CORE_P
 
@@ -2807,6 +2821,13 @@ QFN DFN_QFN
 29
 25
 antmicro-footprints
+QFN-28_6x6mm_P0.65mm
+QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf (Page 289)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+38
+29
+antmicro-footprints
 QFN-32-1EP_5x5mm
 
 
@@ -5067,6 +5088,20 @@ WE_687650100002_FLEX
 0
 50
 50
+antmicro-footprints
+WE_74437336022
+
+
+0
+2
+2
+antmicro-footprints
+WE_74437336033
+
+
+0
+2
+2
 antmicro-footprints
 WE_74438356220
 
