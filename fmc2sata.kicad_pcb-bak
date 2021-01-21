@@ -17174,10 +17174,10 @@
   )
 
   (gr_text "FMC to SATA adapter\nRev. 1.0.0 01/2021" (at 98.3 50.8) (layer F.Mask) (tstamp 600B68E3)
-    (effects (font (size 1 1) (thickness 0.2)) (justify left))
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "FMC to SATA adapter\nRev. 1.0.0 01/2021" (at 98.3 50.8) (layer F.Cu)
-    (effects (font (size 1 1) (thickness 0.2)) (justify left))
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_line (start 155 80) (end 180 80) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 155 43) (end 155 80) (layer Edge.Cuts) (width 0.2))
