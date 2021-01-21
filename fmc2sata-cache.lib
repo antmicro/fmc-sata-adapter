@@ -586,6 +586,31 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroLEDIndicationDiscrete_LTST-C191KRKT
+#
+DEF antmicroLEDIndicationDiscrete_LTST-C191KRKT D 0 0 Y Y 1 F N
+F0 "D" -250 150 50 H V L CNN
+F1 "antmicroLEDIndicationDiscrete_LTST-C191KRKT" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:LED_0603" 200 200 60 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" 200 300 60 H I L CNN
+F4 "LTST-C191KRKT" 200 500 60 H I L CNN "MPN"
+F5 "Lite-On Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+P 2 0 1 0 0 50 0 -50 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+P 2 1 1 0 -50 150 -75 125 N
+P 2 1 1 0 -25 200 -50 200 N
+P 2 1 1 0 0 175 0 150 N
+P 2 1 1 0 50 125 25 100 N
+P 2 1 1 0 75 175 50 175 N
+P 2 1 1 0 100 150 100 125 N
+P 5 1 1 0 50 125 100 175 75 175 100 175 100 150 N
+P 6 1 1 0 0 200 0 175 0 200 -25 200 0 200 -50 150 N
+X ~ 1 100 0 100 L 50 50 1 1 O
+X ~ 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_9774025151
 #
 DEF antmicroMechanicalParts_9774025151 SP 0 40 Y Y 1 F N
@@ -820,23 +845,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# antmicroResistors0402_R_1k_0402
-#
-DEF antmicroResistors0402_R_1k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "antmicroResistors0402_R_1k_0402" 0 -150 60 H I C CNN
-F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
-F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
-F6 "1k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # antmicroResistors0402_R_330R_0402
 #
 DEF antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
@@ -885,6 +893,72 @@ DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
 X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTransistorsFETsMOSFETsSingle_BSS138APW
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_BSS138APW Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_BSS138APW" 136 0 60 V V C CNN
+F2 "antmicro-footprints:SC70-3" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "BSS138PW" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# antmicroTransistorsFETsMOSFETsSingle_DMG2305UX-13
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_DMG2305UX-13 Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_DMG2305UX-13" 136 0 60 V V C CNN
+F2 "antmicro-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf" 200 300 60 H I L CNN
+F4 "DMG2305UX-13" 200 500 60 H I L CNN "MPN"
+F5 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 -10 20 -10 N
+P 4 1 1 0 -15 0 -45 20 -45 -20 -15 0 F
+P 4 1 1 0 40 -10 60 20 20 20 40 -10 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
