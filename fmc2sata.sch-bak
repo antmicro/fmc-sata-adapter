@@ -1377,18 +1377,18 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 6009AC9F
-P 9325 7650
-F 0 "#PWR01" H 9325 7400 50  0001 C CNN
-F 1 "GND" H 9330 7477 50  0000 C CNN
-F 2 "" H 9325 7650 50  0001 C CNN
-F 3 "" H 9325 7650 50  0001 C CNN
-	1    9325 7650
+P 9325 7875
+F 0 "#PWR01" H 9325 7625 50  0001 C CNN
+F 1 "GND" H 9330 7702 50  0000 C CNN
+F 2 "" H 9325 7875 50  0001 C CNN
+F 3 "" H 9325 7875 50  0001 C CNN
+	1    9325 7875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9400 7500 9325 7500
 Wire Wire Line
-	9325 7500 9325 7650
+	9325 7500 9325 7825
 Text Notes 13700 2425 0    79   ~ 16
 2.5" Drive Power Connector
 $Comp
@@ -1609,98 +1609,6 @@ Text Label 10650 4425 0    50   ~ 0
 M2_SATA_B_N
 Text Label 10650 4525 0    50   ~ 0
 M2_SATA_B_P
-Text GLabel 14900 5550 2    50   Input ~ 0
-SATA_B_P
-Text GLabel 14900 5450 2    50   Input ~ 0
-SATA_B_N
-Text Notes 15375 5550 0    50   ~ 0
-Receive
-Wire Wire Line
-	14200 5450 13750 5450
-Wire Wire Line
-	14800 5550 14900 5550
-Wire Wire Line
-	14500 5450 14900 5450
-Wire Wire Line
-	13750 5550 14500 5550
-$Comp
-L antmicroCapacitors0402:C_10n_0402 C19
-U 1 1 603C8A00
-P 14650 5550
-F 0 "C19" V 14600 5675 60  0000 C CNN
-F 1 "C_10n_0402" H 14650 5400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14850 5750 60  0001 L CNN
-F 3 "" H 14650 5550 50  0001 C CNN
-F 4 "AVX" H 14850 5950 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 14850 5850 60  0001 L CNN "MPN"
-F 6 "10n" V 14700 5700 50  0000 C CNN "Val"
-	1    14650 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_10n_0402 C17
-U 1 1 603C8A09
-P 14350 5450
-F 0 "C17" V 14300 5550 60  0000 C CNN
-F 1 "C_10n_0402" H 14350 5300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14550 5650 60  0001 L CNN
-F 3 "" H 14350 5450 50  0001 C CNN
-F 4 "AVX" H 14550 5850 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 14550 5750 60  0001 L CNN "MPN"
-F 6 "10n" V 14400 5575 50  0000 C CNN "Val"
-	1    14350 5450
-	0    1    1    0   
-$EndComp
-Text Notes 15375 5250 0    50   ~ 0
-Transmit
-Wire Wire Line
-	14800 5250 14900 5250
-Wire Wire Line
-	14500 5150 14900 5150
-Wire Wire Line
-	13750 5250 14500 5250
-$Comp
-L antmicroCapacitors0402:C_10n_0402 C18
-U 1 1 603C8A16
-P 14650 5250
-F 0 "C18" V 14600 5375 60  0000 C CNN
-F 1 "C_10n_0402" H 14650 5100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14850 5450 60  0001 L CNN
-F 3 "" H 14650 5250 50  0001 C CNN
-F 4 "AVX" H 14850 5650 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 14850 5550 60  0001 L CNN "MPN"
-F 6 "10n" V 14700 5400 50  0000 C CNN "Val"
-	1    14650 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L antmicroCapacitors0402:C_10n_0402 C16
-U 1 1 603C8A1F
-P 14350 5150
-F 0 "C16" V 14300 5250 60  0000 C CNN
-F 1 "C_10n_0402" H 14350 5000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 14550 5350 60  0001 L CNN
-F 3 "" H 14350 5150 50  0001 C CNN
-F 4 "AVX" H 14550 5550 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 14550 5450 60  0001 L CNN "MPN"
-F 6 "10n" V 14400 5275 50  0000 C CNN "Val"
-	1    14350 5150
-	0    1    1    0   
-$EndComp
-Text GLabel 14900 5150 2    50   Input ~ 0
-SATA_A_P
-Text GLabel 14900 5250 2    50   Input ~ 0
-SATA_A_N
-Wire Wire Line
-	13750 5150 14200 5150
-Text Label 13750 5150 0    50   ~ 0
-EXT_SATA_A_P
-Text Label 13750 5250 0    50   ~ 0
-EXT_SATA_A_N
-Text Label 13750 5450 0    50   ~ 0
-EXT_SATA_B_N
-Text Label 13750 5550 0    50   ~ 0
-EXT_SATA_B_P
 $Comp
 L antmicroPCConnectors:te-770829-1 J3
 U 1 1 600E95A5
@@ -1764,4 +1672,44 @@ Wire Wire Line
 	13950 3300 13450 3300
 Wire Wire Line
 	13450 3300 13450 3150
+$Comp
+L antmicroMechanicalParts:9774025151 SP2
+U 1 1 601E6B56
+P 9600 7825
+F 0 "SP2" H 9730 7878 60  0000 L CNN
+F 1 "9774025151" H 9730 7772 60  0000 L CNN
+F 2 "antmicro-footprints:9774025151" H 9600 7825 60  0001 C CNN
+F 3 "" H 9600 7825 60  0001 C CNN
+F 4 "Wurth Elektronik" H 9600 7825 50  0001 C CNN "Manufacturer"
+F 5 "9774025151" H 9600 7825 50  0001 C CNN "MPN"
+	1    9600 7825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 7825 9325 7825
+Connection ~ 9325 7825
+Wire Wire Line
+	9325 7825 9325 7875
+$Comp
+L antmicroMechanicalParts:oshw_logo N2
+U 1 1 6021D7FF
+P 15225 9575
+F 0 "N2" H 15419 9578 50  0000 L CNN
+F 1 "oshw_logo" H 15419 9487 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 15245 9335 50  0001 C CNN
+F 3 "" H 15225 9575 50  0001 C CNN
+	1    15225 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:antmicro_logo N1
+U 1 1 6021EA88
+P 14325 9700
+F 0 "N1" H 14539 9793 50  0000 L CNN
+F 1 "antmicro_logo" H 14539 9702 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo" H 14225 9950 50  0001 C CNN
+F 3 "" H 14325 10050 50  0001 C CNN
+	1    14325 9700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -5,7 +5,7 @@
     (drawings 6)
     (tracks 10)
     (zones 0)
-    (modules 36)
+    (modules 37)
     (nets 155)
   )
 
@@ -421,6 +421,24 @@
     (add_net SATA_B_P)
     (add_net SATA_CLK_N)
     (add_net SATA_CLK_P)
+  )
+
+  (module antmicro-footprints:9774025151 (layer F.Cu) (tedit 5FE9E987) (tstamp 600AB931)
+    (at 136.8 96)
+    (path /601E6B56)
+    (fp_text reference SP2 (at 0 -4.2) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 9774025151 (at -0.05 4.35) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0.05 -0.05) (size 6 6) (drill 3.7) (layers *.Cu F.SilkS F.Mask)
+      (net 2 GND) (solder_paste_margin -1.2))
+    (model ${KIPRJMOD}/lib/3d-models/9774025151.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module antmicro-footprints:9774025151 locked (layer F.Cu) (tedit 60094C4B) (tstamp 600959B1)
@@ -1579,7 +1597,7 @@
     )
   )
 
-  (module antmicro-footprints:1-2199230-6 locked (layer F.Cu) (tedit 5EE0CA7C) (tstamp 600A6C21)
+  (module antmicro-footprints:1-2199230-6 (layer F.Cu) (tedit 5EE0CA7C) (tstamp 600A6C21)
     (at 96.8 96 90)
     (path /60069198)
     (fp_text reference J2 (at 12.38 2.69 90) (layer F.SilkS)

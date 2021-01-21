@@ -1377,18 +1377,18 @@ $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 6009AC9F
-P 9325 7650
-F 0 "#PWR01" H 9325 7400 50  0001 C CNN
-F 1 "GND" H 9330 7477 50  0000 C CNN
-F 2 "" H 9325 7650 50  0001 C CNN
-F 3 "" H 9325 7650 50  0001 C CNN
-	1    9325 7650
+P 9325 7875
+F 0 "#PWR01" H 9325 7625 50  0001 C CNN
+F 1 "GND" H 9330 7702 50  0000 C CNN
+F 2 "" H 9325 7875 50  0001 C CNN
+F 3 "" H 9325 7875 50  0001 C CNN
+	1    9325 7875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9400 7500 9325 7500
 Wire Wire Line
-	9325 7500 9325 7650
+	9325 7500 9325 7825
 Text Notes 13700 2425 0    79   ~ 16
 2.5" Drive Power Connector
 $Comp
@@ -1672,4 +1672,44 @@ Wire Wire Line
 	13950 3300 13450 3300
 Wire Wire Line
 	13450 3300 13450 3150
+$Comp
+L antmicroMechanicalParts:9774025151 SP2
+U 1 1 601E6B56
+P 9600 7825
+F 0 "SP2" H 9730 7878 60  0000 L CNN
+F 1 "9774025151" H 9730 7772 60  0000 L CNN
+F 2 "antmicro-footprints:9774025151" H 9600 7825 60  0001 C CNN
+F 3 "" H 9600 7825 60  0001 C CNN
+F 4 "Wurth Elektronik" H 9600 7825 50  0001 C CNN "Manufacturer"
+F 5 "9774025151" H 9600 7825 50  0001 C CNN "MPN"
+	1    9600 7825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 7825 9325 7825
+Connection ~ 9325 7825
+Wire Wire Line
+	9325 7825 9325 7875
+$Comp
+L antmicroMechanicalParts:oshw_logo N2
+U 1 1 6021D7FF
+P 15225 9575
+F 0 "N2" H 15419 9578 50  0000 L CNN
+F 1 "oshw_logo" H 15419 9487 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 15245 9335 50  0001 C CNN
+F 3 "" H 15225 9575 50  0001 C CNN
+	1    15225 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:antmicro_logo N1
+U 1 1 6021EA88
+P 14325 9700
+F 0 "N1" H 14539 9793 50  0000 L CNN
+F 1 "antmicro_logo" H 14539 9702 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo" H 14225 9950 50  0001 C CNN
+F 3 "" H 14325 10050 50  0001 C CNN
+	1    14325 9700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
