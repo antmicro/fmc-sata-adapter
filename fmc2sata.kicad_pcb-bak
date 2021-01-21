@@ -432,7 +432,7 @@
   )
 
   (module antmicro-footprints:te-770829-1 (layer F.Cu) (tedit 600942FB) (tstamp 600A39CA)
-    (at 165.7 64.9 270)
+    (at 164.6 64.9 270)
     (path /600E95A5)
     (attr smd)
     (fp_text reference J3 (at -0.2 -3.4 90) (layer F.SilkS)
