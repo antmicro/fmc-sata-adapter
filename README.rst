@@ -20,4 +20,4 @@ Prototyping  and hardware verification of rev 1.0.0 is now in progress.
 License
 =======
 
-`MIT <LICENSE>`_
+`Apache-2.0 <LICENSE>`_
