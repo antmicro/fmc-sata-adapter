@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "FMC 2 SATA"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd."
