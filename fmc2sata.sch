@@ -713,11 +713,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 6400 1450 6200
 Connection ~ 1450 6200
-Wire Wire Line
-	1900 6600 1450 6600
-Wire Wire Line
-	1450 6600 1450 6400
-Connection ~ 1450 6400
 $Comp
 L fmc2sata:TPS565208 U1
 U 1 1 603A0101
