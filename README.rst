@@ -15,7 +15,7 @@ This repository includes PCB design files for an experimental expansion board al
 Design status
 -------------
 
-Revision 1.0.0 has been initially verified in prototype hardware mods added during bringup were included in rev. 1.0.1.
+Revision 1.0.0 has been initially verified in prototype. Hardware mods added during bringup were included in rev. 1.0.1.
 
 License
 =======
