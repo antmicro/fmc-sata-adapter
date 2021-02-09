@@ -2322,4 +2322,31 @@ Wire Wire Line
 	12175 9375 12400 9375
 Wire Wire Line
 	12175 9675 12400 9675
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP_12V
+U 1 1 6032B1A6
+P 12925 3300
+F 0 "TP_12V" V 12925 3125 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12925 3200 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 13125 3500 60  0001 L CNN
+F 3 "" H 13125 3600 60  0001 L CNN
+	1    12925 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP_GND
+U 1 1 6032C761
+P 14400 3400
+F 0 "TP_GND" V 14400 3225 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14400 3300 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 14600 3600 60  0001 L CNN
+F 3 "" H 14600 3700 60  0001 L CNN
+	1    14400 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14500 3400 14675 3400
+Connection ~ 14675 3400
+Wire Wire Line
+	13025 3300 13300 3300
 $EndSCHEMATC
