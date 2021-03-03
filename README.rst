@@ -4,7 +4,7 @@ FMC to SATA Adapter
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
-.. image:: Images/fmc2sata.png
+.. image:: Images/fmc2sata.jpg
    :scale: 40%
 
 Overview
